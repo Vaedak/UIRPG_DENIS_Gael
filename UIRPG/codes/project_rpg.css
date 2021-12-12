@@ -1,0 +1,107 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    height : 100vh;
+}
+
+#screen{
+    height : 100%;
+    background :url(../asset/background.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+#ui{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    color: azure;
+    border:5px solid azure;
+    background-color: rgba(100, 100, 255, 0.651);
+}
+
+.chara{
+    display:flex;
+
+}
+
+p{
+    margin: 0 10px;
+}
+
+#battlefield{
+    display:flex;
+    justify-content: space-around;
+}
+
+#forest{
+    display:flex;
+    justify-content:space-between;
+    width: 60%;
+    
+}
+
+#foes{
+    display:flex;
+    flex-direction:column;
+    height:60%;
+    width:15%;
+}
+
+#friends{
+    display:flex;
+    flex-direction:column;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  height:50%;
+  width:10%;
+}
+
+#attacks{
+    display:flex;
+    flex-direction: column;
+    color: azure;
+    border:5px solid azure;
+    background-color: rgba(100, 100, 255, 0.582);
+    height:94px;
+    width:100px;
+}
+
+#ui_2{
+    color: azure;
+    border:5px solid azure;
+    background-color: rgba(100, 100, 255, 0.582);
+    height:88px;
+    width:650px;
+}
+
+
+#hover_UI:hover{
+    color : rgb(255, 0, 0) ;
+    background-color :rgba(220, 20, 20, 0.432) ;
+}
+
+
+#hover_character_1:hover{
+    position:absolute ;
+    background-color :rgba(0, 0, 0, 0.048) ;
+    
+}
+
+
+#ui_3{
+    display:flex;
+    flex-direction: column;
+    color: azure;
+    border:5px solid azure;
+    background-color: rgba(100, 100, 255, 0.582);
+    height:94px;
+    width:100px;
+    text-align: center;
+}

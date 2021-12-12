@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project_rpg.css">
+</head>
+<body>
+    
+    <div id="screen">
+
+        <div id="ui">
+
+            <div id="ui_enemy">
+                <div id="ui_1_ENEMY" class="chara">
+                    <p id=enemy_1_nm>Demon</p>
+                    <p id=enemy_1_mp>MP:300</p>
+                    <p id=enemy_1_hp>HP:500</p>
+                </div>
+                <div id="ui_2_ENEMY" class="chara">
+                    <p id=enemy_2_nm>Golem</p>
+                    <p id=enemy_2_mp>MP:500</p>
+                    <p id=enemy_2_hp>HP:50</p>
+                </div>
+                <div id="ui_3_ENEMY" class="chara">
+                    <p id=enemy_3_nm>Pig Thief</p>
+                    <p id=enemy_3_mp>MP:40</p>
+                    <p id=enemy_3_hp>HP:400</p>
+                </div>
+                
+            </div>
+
+            <div id="ui_1">
+                <div id="ui_1_CHARACTER" class="chara">
+                    <p id=character_1_nm>Wagner</p>
+                    <p id=character_1_mp>MP:100</p>
+                    <p id=character_1_hp>HP:200</p>
+                </div>
+                <div id="ui_2_CHARACTER" class="chara">
+                    <p id=character_2_nm>Donta</p>
+                    <p id=character_2_mp>MP:100</p>
+                    <p id=character_2_hp>HP:60</p>
+                </div>
+                <div id="ui_3_CHARACTER" class="chara">
+                    <p id=character_3_nm>Pass</p>
+                    <p id=character_3_mp>MP:120</p>
+                    <p id=character_3_hp>HP:40</p>
+                </div>
+                <div id="ui_4_CHARACTER" class="chara">
+                    <p id=character_4_nm>Gobarnof</p>
+                    <p id=character_4_mp>MP:300</p>
+                    <p id=character_4_hp>HP:10</p>
+                </div>    
+            </div>
+
+            <div id="ui_2">
+                You encounter three monsters ! Perpare to fight !
+            </div>
+
+        </div>
+
+        <div id ="ui_3">
+            Wagner
+        </div>
+
+
+        <div id="attacks">
+            <div id="base_button">
+                <input type="button" value="BASE" onclick="base_attack_1()">
+            </div>
+            <div id="special_button">
+                <input type="button" value="SPECIAL" onclick="special_attack_1()">
+            </div>
+            <div id="block_button">
+                <input type="button" value="BLOCK" onclick="vartest()">
+            </div>
+            <div id="evade_button">
+                <input type="button" value="EVADE" onclick="vartest()">
+            </div>
+
+        </div>
+
+        <div id="battlefield">
+  
+            <div id="forest">
+                <div id="foes">
+                    <img src="../asset/enemy_1.png" alt="">
+                    <img src="../asset/enemy_2.png" alt="">
+                    <img src="../asset/swinethug2.png" alt="">
+                </div>
+
+                    
+                <div id="friends">
+                    <img src="../asset/character_1.png" alt="">
+                    <img src="../asset/character_2.png" alt="">
+                    <img src="../asset/character_3.png" alt="">
+                    <img src="../asset/character_4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+<script src="project_rpg.js" async></script>
+
+
+
+</html>
